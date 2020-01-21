@@ -8,6 +8,7 @@
 
 #include "C_features/c99_features.h"
 #include "C_features/c11_features.h"
+#include "C_features/c_memoryAllocation.h"
 
 int main(void)
 {
@@ -20,6 +21,9 @@ int main(void)
 	/* C features - c11 */
 	alignmentTest();
 	genericTypePrintTest();
+
+	/* C - style dynamic memory alocation */
+	dynamicAllocTest();
 
 	return 0;
 }

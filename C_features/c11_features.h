@@ -86,4 +86,4 @@ void genericTypePrintTest(void)
 
 enum {N = 5};
 _Static_assert(N == 5, "N does not equal 5");		/* just a literal, do nothing */
-static_assert(N > 10, "N is not greater than 10");  /* compiler error */
+//static_assert(N > 10, "N is not greater than 10");  /* compiler error */
